@@ -17,6 +17,6 @@ Visit us at [Aesthisia](https://aesthisia.com)
 
 - Create a public repository on GitHub to host your assignment code and screenshots.
 - Upload all the necessary files, including Dockerfile, Kubernetes deployment manifests, and HPA. 
-- Please submit your results to [this Google Form].
+- Please submit your screenshots, including the URL of your GitHub repository, through [this Google Form](https://docs.google.com/forms/d/e/1FAIpQLSfVkC1gjkN97DHvuLK624OyTkWvZ2CBnyNEH4UDN5CBScaxjQ/viewform).
 
 ---

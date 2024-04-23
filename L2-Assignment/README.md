@@ -19,10 +19,6 @@
 
  - Upon accessing the application through the browser, troubleshoot and resolve the error.
 
-**Solve the Issue:**
-
- - Identify the cause of the error, which might be related to the NGINX configuration.
-
 **Verify the Fix:**
 
  - After resolving the error inside the container, you should be able to see "Welcome to Aesthisia."

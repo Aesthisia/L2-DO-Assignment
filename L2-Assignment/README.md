@@ -47,16 +47,16 @@
 
 **Error Diagnosis:**
 
-   - Identify whether the "403 Forbidden" error is caused by misconfigured NGINX settings or any other issues within the Docker container.
+   - Identify whether the "403 Forbidden" error is caused by misconfiguration within the Docker container.
 
 **Resolution Details:**
 
-  - Provide a clear explanation of the root cause of the error and the steps taken to resolve it, whether it involves modifying NGINX configuration, adjusting permissions, or any other necessary changes.
+  - Provide a clear explanation of the root cause of the error and the steps taken to resolve it, including any adjustments made to permissions or other necessary changes.
 
 **Verification of Fix:**
   - Confirm that after resolving the error, accessing the application displays "Welcome to Aesthisia" without encountering the "403 Forbidden" error.
 
 **Documentation:**
-  - Document any modifications made to the NGINX configuration or inside the container for future reference and clarity.
+  - Document any modifications made inside the container for future reference and clarity.
 
 ---

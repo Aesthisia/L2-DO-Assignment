@@ -23,26 +23,6 @@
 
  - After resolving the error inside the container, you should be able to see "Welcome to Aesthisia."
 
-### Reference:
-
-- Here’s the reference to the Dockerfile used for building the Docker image sarveshsd/assignment:
-  
-      FROM node:19 AS build
-      WORKDIR /app
-      COPY package.json .
-      RUN npm install
-      COPY . .
-      RUN npm run build
-      EXPOSE 3000
-      
-      # Stage 2: Runtime stage
-      FROM nginx:latest
-      COPY --from=build /app/build /usr/share/nginx/html
-      COPY nginx.conf /etc/nginx/conf.d/default.conf
-      EXPOSE 3000
-      CMD ["nginx","-g","daemon off;"]
-
-
 ### Success Criteria:
 
 **Error Diagnosis:**

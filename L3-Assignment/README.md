@@ -24,13 +24,22 @@
   3. Set up load testing tools to send multiple requests to the application.
   4. Monitor the performance of the application and observe the behavior of HPA.
 
-### Task 4: Submission Requirements
+### Task 4: Exposing the Application to a Load Balancer in Minikube
+- **Objective:** Expose the Dockerized Node.js application to a Load Balancer to distribute incoming traffic across multiple instances.
+- **Steps:**
+  1. Write a Kubernetes service manifest to create a Load Balancer service.
+  2. Ensure that the service routes traffic to all instances of the deployed application.
+  3. Verify the functionality of the Load Balancer service by accessing the application through its external IP.
+  4. Update the README.md file with instructions on how to access the application through the Load Balancer.
+
+### Task 5: Submission Requirements
 - **Objective:** Upload the complete codebase, including Kubernetes deployment manifests, to a public GitHub repository.
 - **Steps:**
   1. Create a public GitHub repository for the project.
   2. Upload all the necessary files including Dockerfile, Kubernetes deployment manifests, and HPA YAML file to the repository.
   3. Capture a screenshot demonstrating the scaling behavior of the HPA during the load test, showcasing scaling up the replicas.
-  4. Update the repository's README.md file with documentation of the project setup.
+  4. All screenshots demonstrating the creation of the Load Balancer service and accessing the application should be uploaded to the public GitHub repository.
+  5. Update the repository's README.md file with documentation of the project setup.
 
 ## Success Criteria:
 - **Functional Kubernetes Deployment:**
@@ -42,5 +51,8 @@
 - **Successful Load Test Execution:**
   - Execute a load test on the deployed Node.js application.
   - Capture a screenshot demonstrating the scaling behavior of the HPA during the load test.
+- **Accessing the Application:** 
+  - The application should be accessible through the assigned IP of the Load Balancer service. 
+  - Update the README.md file with the assigned IP and instructions on accessing the application.
 
 ---

@@ -40,6 +40,11 @@
   3. Capture a screenshot demonstrating the scaling behavior of the HPA during the load test, showcasing scaling up the replicas.
   4. All screenshots demonstrating the creation of the Load Balancer service and accessing the application should be uploaded to the public GitHub repository.
   5. Update the repository's README.md file with documentation of the project setup.
+     - Project Overview
+     - Project Setup Instructions
+     - Deployment Instructions
+     - Load Testing Instructions
+
 
 ## Success Criteria:
 - **Functional Kubernetes Deployment:**
